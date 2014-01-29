@@ -6,7 +6,7 @@ gem 'haml'
 gem 'bcrypt-ruby', '3.0.0'
 gem 'url_scraper'
 
-gem 'rails_12factor', group: :production
+#gem 'rails_12factor', group: :production
 
 group :assets do
   gem 'sass-rails',  '~> 3.2.3'
