@@ -6,7 +6,7 @@ gem 'haml'
 gem 'bcrypt-ruby', '3.0.0'
 gem 'url_scraper'
 
-#gem 'rails_12factor', group: :production
+gem 'rails_12factor', group: :production
 
 group :assets do
   gem 'sass-rails',  '~> 3.2.3'
@@ -28,15 +28,19 @@ gem 'devise'
 gem 'sextant'
 gem 'factory_girl_rails'
 gem 'faker'
+
 gem 'carrierwave'
-gem 'fog', "~> 1.3.1"
-gem 'rmagick'
-gem 'mini_magick'
+gem 'cloudinary'
+
+#gem 'fog', "~> 1.3.1"
+#gem 'rmagick'
+#gem 'mini_magick'
+
 gem 'acts-as-taggable-on'
 
 group :development, :test do
   gem 'pry-rails'
- # gem 'pry-debugger'
+  #gem 'pry-debugger'
   gem 'pry-stack_explorer'
 
   gem 'annotate'
