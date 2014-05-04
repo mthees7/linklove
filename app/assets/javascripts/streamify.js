@@ -4,10 +4,10 @@ $(document).ready(function () {
     $scrape_url.trigger("paste");
   }
 
-  $(window).resize(function () {
-    var wheight = $(window).height();
-    $('.row').css('min-height', wheight - $('footer').height() - $('.navbar').height());
-  }).trigger('resize');
+  // $(window).resize(function () {
+  //   var wheight = $(window).height();
+  //   $('.row').css('min-height', wheight - $('footer').height() - $('.navbar').height());
+  // }).trigger('resize');
 
   $(window).resize(function () {
     var wheight = $(window).height();
